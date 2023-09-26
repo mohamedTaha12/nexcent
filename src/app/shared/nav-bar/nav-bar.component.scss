@@ -1,0 +1,32 @@
+.container-fluid {
+    padding: 10px 120px;
+}
+
+.logo {
+    font-family: fantasy;
+    font-size: xx-large;
+}
+
+span {
+    ul {
+        li {
+            color: #4d4d4d;
+            font-weight: bold;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    .container-fluid {
+        padding: 10px 80px;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .container-fluid {
+        padding: 0 20px;
+    }
+}

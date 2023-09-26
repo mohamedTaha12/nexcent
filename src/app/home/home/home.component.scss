@@ -1,0 +1,41 @@
+.main {
+    background-color: #f5f7fa;
+}
+
+.home {
+    .content {
+        h1 {
+            font-weight: bold;
+            font-size: 4rem;
+        }
+
+        button {
+            background-color: #4caf4f;
+            color: white;
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    img {
+        width: 60% !important;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .content {
+        h1 {
+            font-weight: bold;
+            font-size: 3rem !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 598px) {
+    .content {
+        h1 {
+            font-weight: bold;
+            font-size: 2rem !important;
+        }
+    }
+}
